@@ -2,20 +2,24 @@
 
 [![Build Status](https://secure.travis-ci.org/wwood/bioruby-taxonomy_definition_files.png)](http://travis-ci.org/wwood/bioruby-taxonomy_definition_files)
 
-Full description goes here
+In bioinformatics, some files hold information about taxonomy - this is a biogem for parsing some of them. Currently supported:
+
+* IMG (Integrated Microbial Genomics) taxonomy files. 
+
+That's all for the moment, greengenes will probably be the next one.
 
 Note: this software is under active development!
 
 ## Installation
 
 ```sh
-    gem install bio-taxonomy_definition_files
+gem install bio-taxonomy_definition_files
 ```
 
 ## Usage
 
 ```ruby
-    require 'bio-taxonomy_definition_files'
+require 'bio-taxonomy_definition_files'
 ```
 
 The API doc is online. For more code examples see the test files in
