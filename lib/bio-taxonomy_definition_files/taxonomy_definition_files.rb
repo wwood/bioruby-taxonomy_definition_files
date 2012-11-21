@@ -1,3 +1,0 @@
-module BioTaxonomyDefinitionFiles
-
-end
